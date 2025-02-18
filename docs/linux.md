@@ -12,3 +12,10 @@
 sudo rpm-ostree kargs --append=usbcore.autosuspend=-1
 ```
 
+## interactively edit kernel arguments
+
+```shell
+sudo rpm-ostree kargs --editor
+```
+[Source](https://docs.fedoraproject.org/en-US/fedora-coreos/kernel-args/#_interactive_editing)
+
