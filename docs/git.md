@@ -3,6 +3,12 @@
 ## Show the commit message and short hash
 
 ```bash
+git log --pretty=oneline --abbrev-commit
+```
+
+alternatively:
+
+```bash
 git log  --pretty=format:'%h --> %s'
 ```
 
