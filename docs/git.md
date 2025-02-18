@@ -1,5 +1,11 @@
 # git notes
 
+## Show the commit message and short hash
+
+```bash
+git log  --pretty=format:'%h --> %s'
+```
+
 ## Undo last commit
 
 [Source](https://stackoverflow.com/questions/927358/how-do-i-undo-the-most-recent-local-commits-in-git)
@@ -10,6 +16,14 @@ $ git reset HEAD~                              # (1)
 << edit files as necessary >>                  # (2)
 $ git add .                                    # (3)
 $ git commit -c ORIG_HEAD                      # (4)
+```
+
+Alternative:
+
+```bash
+git revert --no-commit 0d1d7fc3..HEAD
+git commit
+git push
 ```
 
 ## Merge branches
