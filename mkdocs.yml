@@ -3,7 +3,8 @@ nav:
   - Home: index.md
   - About: about.md
   - Linux: linux.md
-  - Tips and notes: tips.md
+  - git: git.md
+  - Other tips: tips.md
   - Awesome list: awesome.md
   - RSECon24 Workshop: rsecon24.md
 theme:
