@@ -2,6 +2,7 @@ site_name: fdiblen's fish memory notes
 nav:
   - Home: index.md
   - About: about.md
+  - Linux: linux.md
   - Tips and notes: tips.md
   - Awesome list: awesome.md
   - RSECon24 Workshop: rsecon24.md
